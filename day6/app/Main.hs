@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Data.Functor
+import Data.Functor ((<&>))
 import Data.List (nub)
 
 findMarker :: Int -> String -> Maybe Int
